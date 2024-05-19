@@ -1,0 +1,13 @@
+.flight-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.flight-card {
+    background-color: var(--light-color);
+    width: 150px;
+    flex-grow: 1;
+}
