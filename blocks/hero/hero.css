@@ -1,14 +1,14 @@
 main .hero-container > div {
   max-width: unset;
 }
-
+  
 main .hero-container {
   padding: 0;
 }
 
 .hero {
   position: relative;
-  padding: 32px;Q
+  padding: 32px;
   min-height: 300px;
 }
 
