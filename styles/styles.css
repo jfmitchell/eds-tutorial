@@ -14,10 +14,10 @@
   /* colors */
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
-  --background-color: white;
+  --background-color: #00ffff;
   --light-color: #eee;
   --dark-color: #ccc;
-  --text-color: black;
+  --text-color: #bb46ff;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
@@ -207,4 +207,8 @@ main .section {
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
+}
+
+main .section.dark {
+  background-color: var(--dark-color);
 }
