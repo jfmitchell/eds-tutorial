@@ -2,7 +2,7 @@ import { createOptimizedPicture, fetchPlaceholders } from '../../scripts/aem.js'
 
 export default async function decorate(block) {
   const placeholders = await fetchPlaceholders();
-  const  { ctalabel } = placeholders;
+  const { ctalabel } = placeholders;
   /* change to ul, li */
   const ul = document.createElement('ul');
   [...block.children].forEach((row) => {
