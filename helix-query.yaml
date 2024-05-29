@@ -1,0 +1,5 @@
+indices:
+  eds-tutorial:
+    include:
+      - /**
+    target: /query-index.json
